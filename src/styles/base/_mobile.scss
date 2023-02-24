@@ -1,0 +1,196 @@
+@media screen and (max-width: 320px) {
+    .container {
+        &__topWrapper {
+            flex-direction: column-reverse;
+        }
+    }
+
+    // header
+    .header {
+        height: 540px;
+    }
+
+    .logo {
+        margin: 0 auto;
+        margin-top: 98px;
+        margin-left: 95px;
+    }
+
+    .nav {
+        margin: 0 auto;
+        margin-top: 19px;
+    }
+
+    .header__text {
+        margin-top: 26px;
+        margin-left: 0;
+        h2 {
+            font-size: 30px;
+            line-height: 37px;
+            margin-left: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 24px;
+            margin: 0 1rem;
+            margin-top: 5px;
+            margin-left: 35px;
+        }
+
+        button {
+            margin-top: 19px;
+            width: 282px;
+        }
+    }
+
+    // main
+    .container-1wrapper {
+        &_h2 {
+            margin-top: 34px;
+            margin-bottom: 15px;
+            margin-left: 12px;
+        }
+    }
+
+    // steps
+    .steps {
+        flex-direction: column;
+
+        &__first {
+            margin-top: 0;
+        }
+
+        &__first,
+        &__third {
+
+            &_red {
+                margin-top: 64px;
+            }
+
+            &_p {
+                margin-top: 25px;
+                margin-right: 16px;
+                margin-left: -7px;
+            }
+
+        }
+
+        &__second {
+            margin: 0;
+            margin-top: 10px;
+
+            &_red {
+                margin-top: 95px;
+            }
+
+            &_h2 {
+                margin-top: 25px;
+                margin-left: -7px;
+            }
+
+            &_p {
+                margin-top: 16px;
+                margin-left: -7px;
+            }
+
+        }
+
+        &__first,
+        &__second,
+        &__third {
+            width: 280px;
+            height: 240px;
+        }
+
+        &__third {
+            margin-top: 10px;
+        }
+    }
+
+    // container-2wrapper
+    .container-2wrapper {
+        &_btn {
+            width: 280px;
+            margin-top: 2px;
+        }
+    }
+
+    // avatars
+    .avatars {
+        margin-top: 13px;
+    }
+
+    // container-2wrapper
+    .container-2wrapper {
+        margin-top: 36px;
+    }
+
+        // activity
+        .activity {
+            display: block;
+            padding-left: 0;
+            padding-right: 0;
+
+            &__sport,
+            &__healath, 
+            &__extreme, 
+            &__games, 
+            &__culture,
+            &__enjomet,
+            &__travelling {
+                height: 120px;
+                margin-bottom: 10px;
+            }
+
+         }
+
+     // container-3wrapper
+     .container-3wrapper {
+        margin-top: 38px;
+     }
+
+    //  container-4wrapper 
+     .container-4wrapper {
+        display: block;
+        margin-top: -35px;
+
+        &_p {
+           margin-top: 15px; 
+           margin-left: 10px;
+           margin-right: 10px;
+        }
+
+        form {
+            margin-top: 16px;
+        }
+    }
+         
+    // footer
+    .footer {
+        margin-top: 40px;
+
+        &-wrapper {
+            &__dreamshare {
+                margin-top: -18px;
+            }
+
+            &__company {
+                &_ul {
+                    margin-top: 0;
+                }
+            }
+
+            &__partners {
+                margin-left: -16px;
+            }
+
+            &__logo {
+                &_h3 {
+                    margin-left: -6px;
+                }
+            } 
+        }
+    }
+
+}

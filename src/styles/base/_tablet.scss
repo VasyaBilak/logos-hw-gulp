@@ -1,0 +1,189 @@
+@media screen and (max-width: 768px) {
+    // header
+    .logo {
+        margin-top: 47px;
+        margin-left: 48px;
+    }
+
+    .nav {
+        margin-right: 32px;
+        margin-top: 40px;
+    }
+
+    .header__text {
+        margin-top: 149px;
+        margin-left: 17px;
+    }
+
+    // main
+    .container-1wrapper {
+
+        &_h2 {
+            margin-top: 45px;
+            font-size: 22px;
+            line-height: 27px;
+            margin-left: 20px;
+        }
+
+    }
+
+    // steps 
+    .steps {
+        justify-content: flex-start;
+
+        &__first {
+            margin-left: 10px;
+        }
+
+        &__second {
+            margin: 0 20px;
+
+            &_red {
+                margin-top: 255px;
+            }
+
+            &_h2 {
+                margin-top: 11px;
+            }
+
+            &_p {
+                margin-top: 31px;               
+                margin-right: 16px;
+
+            }
+        }
+
+        &__third {
+            margin-right: 10px;
+
+            &_h2 {
+                margin-top: 46px;
+                line-height: 15px;
+            }
+        }
+
+        &__first,
+        &__third,
+        &__second {
+            width: 236px;
+        }
+
+        &__first,
+        &__third {
+
+            &_h2 {
+                margin-left: -5px;
+                margin-top: 45px;
+                line-height: 15px;
+            }
+
+            &_red {
+                margin-top: 206px;
+            }
+
+        }
+
+    }
+
+    // container-2wrapper
+    .container-2wrapper {
+        margin-top: 94px;
+
+        &_h2 {
+            font-size: 22px;
+            line-height: 27px;
+            margin-left: 39px;
+        }
+
+        &_btn {
+            margin-top: 24px;
+            margin-left: 294px;
+        }
+
+    }
+
+     // Avatars
+    .avatars {
+        max-width: 492px;
+        margin: 0 auto;
+        margin-top: 35px;
+
+        &__2 {
+            margin-top: 40px;
+            margin-left: 15px;
+        }
+
+        &__2 {
+            order: 3;
+        }
+
+        &__3 {
+            order: 2;
+        }
+
+        &__4 {
+            order: 4;
+        }
+
+        &__4 {
+            margin-top: 39px;
+        }
+
+        &__1,
+        &__3 {
+            margin-left: 16px;
+        }
+
+    }
+
+     // container-3wrapper
+     .container-3wrapper {
+        margin-top: 93px;
+
+        &_h2 {
+            font-size: 22px;
+            line-height: 27px;
+            margin-left: 19px;
+        }
+
+     }
+
+        // container-4wrapper
+        .container-4wrapper {
+            margin-top: 95px; 
+
+            &_h2 {
+                font-size: 22px;
+                line-height: 27px;
+                margin-left: 17px;
+                letter-spacing: 0.7px;
+                margin-top: -3px;
+            }
+
+            &_p {
+                margin-top: 54px;
+                margin-left: 24px;
+            }
+
+            &__form {
+                margin-left: 16px;
+            }
+        }
+
+        // footer
+        .footer {
+            &-wrapper {
+                padding-left: 39px;
+                padding-right: 12px;
+    
+                &__company {
+                    margin-left: -12px;
+                }
+    
+                &__partners {
+                    margin-left: -63px;
+                }
+            }
+        }
+
+}

@@ -1,0 +1,172 @@
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/desctop';
+@import 'base/tablet';
+@import 'base/anothersScreens';
+@import 'base/mobile';
+
+.header {
+    background: {
+        image: url('../images/Background.png');
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+    }   
+}
+
+.logo {
+    a {
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+}
+
+.nav {
+
+    &__logIn {
+        width: 90px;
+        height: 36px;
+        background-color: transparent;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    &__signUp {
+        width: 90px;
+        height: 36px;
+        background-color: transparent;
+        color: #FFFFFF;
+        border: 2px solid #fff;
+        border-radius: 40px;
+        padding-top: 2px;
+        padding-left: 2px;
+    }
+}
+
+// main
+.container-1wrapper {
+    &_h2 {
+        text-align: center;
+    }
+}
+
+// steps
+.steps {
+    display: flex;
+
+    &__first {
+        background: {
+            image: url('../images/Step\ 1\ image.png');
+            size: cover;
+            repeat: no-repeat;
+        }  
+    }
+
+    &__second {
+        background: {
+            image: url('../images/Step\ 2\ image.png');
+            size: cover;
+            repeat: no-repeat;
+        }  
+    }
+
+    &__third {
+        background: {
+            image: url('../images/Step\ 3\ image.png');
+            size: cover;
+            repeat: no-repeat;
+        }  
+    }
+
+    &_red {
+        width: 70px;
+        height: 20px;
+        background: #FF4E50;
+        border-radius: 40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// Avatars
+.avatars {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+// activity 
+.activity {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+            
+    &__sport,
+    &__healath, 
+    &__extreme, 
+    &__games, 
+    &__culture,
+    &__enjomet,
+    &__travelling {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background: {
+            size: cover;
+            repeat: no-repeat;
+            position: center;
+        } 
+    }
+
+    &__sport {
+        background-image: url('../images/Sport.png');
+    }
+
+    &__healath {
+        background-image: url('../images/Healath.png');
+    }
+
+    &__extreme {
+        background-image: url('../images/Extreme.png');
+    }
+
+    &__games {
+        background-image: url('../images/Games.png');
+    }
+
+    &__culture {
+        background-image: url('../images/Culture.png');
+    }
+
+    &__enjomet {
+        background-image: url('../images/Culture_Copy.png');
+    }
+
+    &__travelling {
+        background-image: url('../images/Bitmap.png');
+    }
+
+}
+
+// footer
+.footer {
+    hr {
+        border: 2px solid #FF4E50;;
+    }
+}
